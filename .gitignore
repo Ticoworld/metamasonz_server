@@ -1,0 +1,56 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database files (optional, if you're storing local dev DBs)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+dump.sql
+
+# Coverage directory used by testing tools
+coverage/
+
+# Build output
+dist/
+build/
+
+# PM2 logs
+.pnpm-debug.log
+*.log
+pids/
+*.pid
+
+# IDE settings
+.vscode/
+.idea/
+
+# Optional: Ignore uploads/temp folders if applicable
+uploads/
+tmp/
+temp/
+
+# Ignore compiled TypeScript files if you're using ts
+*.tsbuildinfo
